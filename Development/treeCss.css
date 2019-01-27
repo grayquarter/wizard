@@ -1,0 +1,355 @@
+@charset "utf-8";
+body.zingtree {
+	margin: 0!important;
+	-ms-overflow-y: hidden
+}
+
+body {
+	color: #23596c
+}
+
+.content-question a,
+.content-answer a {
+	color: #067789;
+	font-weight: 600;
+	text-decoration: none
+}
+
+.content-question a:hover,
+.content-question a:focus,
+.content-answer a:hover,
+.content-answer a:focus {
+	text-decoration: underline
+}
+
+.content-answer .btn,
+.content-question .btn {
+	color: #fff
+}
+
+h3 {
+	color: #e3ddc7
+}
+
+.node-question-text {
+	color: #067789;
+	font-weight: 700
+}
+
+.btn-zingtree {
+	border: 0;
+	font-weight: 700
+}
+
+.btn-zingtree:focus,
+.btn:active:focus,
+.btn.active:focus {
+	outline: 0
+}
+
+.btn-zingtree {
+	color: #fff;
+	background-color: #e3ddc7
+}
+
+.btn-zingtree:hover,
+.btn-zingtree:focus,
+.btn-zingtree:active,
+.btn-zingtree.active,
+.open>.dropdown-toggle.btn-zingtree {
+	background: #e3ddc7;
+	opacity: .85
+}
+
+.btn-zingtree:active,
+.btn-primary.active {
+	background: #e3ddc7;
+	box-shadow: none
+}
+
+.persistent-buttons .btn-default {
+	color: #333;
+	background-color: #fff;
+	border: 2px solid #e3ddc7
+}
+
+.persistent-buttons .btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	color: #333;
+	background-color: #5c95a3;
+	border-color: #e3ddc7
+}
+
+.persistent-buttons .btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	background-image: none
+}
+
+.panel-primary>.panel-heading {
+	background-color: #e3ddc7
+}
+
+.answers a.list-group-item {
+	background-color: #f8f8f8;
+	color: #1d1d1d
+}
+
+.answers a.list-group-item div {
+	color: #1d1d1d
+}
+
+.answers a.list-group-item:hover,
+.answers a.list-group-item:active {
+	background-color: #5c95a3
+}
+
+.list-group-item-question,
+.answers a.list-group-item strong {
+	background-color: #afafaf
+}
+
+.list-group-item-question,
+.answers a.list-group-item strong::before {
+	background-color: #067789
+}
+
+.answers a.list-group-item::after {
+	border-color: #067789
+}
+
+.panel,
+.panel-heading {
+	border: thin;
+	border-style: solid;
+	border-color: #a5adb6;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.panels-node-title {
+	padding: .5em 3.4em .5em 1em;
+	position: relative
+}
+
+#node-title>.pull-right {
+	position: absolute;
+	top: 1em;
+	right: 1em
+}
+
+.permalink {
+	margin-top: -9px;
+	margin-right: -7px
+}
+
+.panel>.list-group .list-group-item {
+	border: none;
+	margin-bottom: 3px;
+	padding: .5em 3.5em .5em 1.5em;
+	-webkit-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out
+}
+
+.panel>.list-group .list-group-item.list-group-item-question {
+	padding: .5em 3.5em
+}
+
+.list-group-item-question h4,
+.panels-node-title h3 {
+	font-size: 1.3em;
+	margin: .1em 0 .1em 1em;
+	color: #fff
+}
+
+.list-group-item-question .fa,
+.panels-node-title h3::before {
+	position: absolute;
+	left: .75em;
+	top: 50%;
+	margin-top: -.75em;
+	font-size: 1.1em;
+	border-radius: 100em;
+	width: 1.6em;
+	height: 1.6em;
+	text-align: center;
+	line-height: 1.5
+}
+
+.list-group-item-question .fa::before {
+	content: '\f059';
+	font-family: fontawesome;
+	padding-right: 5px
+}
+
+.panels-node-title {
+	padding-left: 3.5em
+}
+
+.panels-node-title h3::before {
+	content: '\f138';
+	font-family: fontawesome;
+	padding-right: 5px
+}
+
+.panels-node-title h3 {
+	display: inline-block;
+	color: #067789;
+	vertical-align: text-top;
+	font-family: open sans, sans-serif
+}
+
+.answers a.list-group-item {
+	font-size: 1.1em;
+	font-weight: 400;
+	overflow: hidden
+}
+
+.answers a.list-group-item strong {
+	width: 1em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden
+}
+
+.answers a.list-group-item strong::before {
+	content: '';
+	width: 1em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-transform: translateX(-2em);
+	transform: translateX(-2em);
+	-webkit-transition: 340ms ease-out;
+	transition: 340ms ease-out
+}
+
+.answers a.list-group-item:hover strong::before,
+.answers a.list-group-item:active strong::before {
+	-webkit-transform: translateX(0);
+	transform: translateX(0)
+}
+
+.answers a.list-group-item div {
+	margin-left: .34em;
+	font-size: .8em
+}
+
+.answers a.list-group-item strong .fa {
+	display: none
+}
+
+.answers a.list-group-item::after {
+	content: '\f054';
+	font-family: fontawesome;
+	color: #067789;
+	position: absolute;
+	right: 2.8em;
+	bottom: 0;
+	top: .7em;
+	margin: auto;
+	-webkit-transition: right 180ms ease-in 80ms, opacity 160ms ease-out;
+	transition: right 180ms ease-in 80ms, opacity 160ms ease-out;
+	opacity: 0
+}
+
+.answers a.list-group-item:hover::after {
+	right: 1.5em;
+	opacity: 1
+}
+
+.panel-body {
+	padding: 1.5em
+}
+
+.permalink {
+	margin-top: -28px;
+	margin-right: -7px
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#maptitle {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#node_1_form {  }
